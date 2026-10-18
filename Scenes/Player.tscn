@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://x37ogllew5qs"]
+
+[ext_resource type="Script" uid="uid://bcvdvw6c6k3kb" path="res://Scenes/player.gd" id="1_kyqiw"]
+[ext_resource type="Texture2D" uid="uid://bw8c8q63pxs2x" path="res://Mario.png" id="2_gntrk"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_xrivr"]
+radius = 30.265491
+
+[node name="Player" type="CharacterBody2D" unique_id=827991522]
+script = ExtResource("1_kyqiw")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=409689828]
+position = Vector2(143.00006, 599)
+scale = Vector2(0.186, 0.15)
+texture = ExtResource("2_gntrk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=943155747]
+position = Vector2(150, 603)
+shape = SubResource("CircleShape2D_xrivr")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=754241499]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D" unique_id=1669446650]
+position = Vector2(149, 609)
+shape = SubResource("CircleShape2D_xrivr")
