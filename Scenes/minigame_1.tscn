@@ -48,7 +48,7 @@ _data = {
 }
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_xrivr"]
-radius = 34.20526
+radius = 44.275875
 
 [node name="minigame_1" type="Node2D" unique_id=768206361]
 script = ExtResource("1_5txvl")
@@ -67,49 +67,49 @@ position = Vector2(577.5, 613.5)
 shape = SubResource("RectangleShape2D_xrivr")
 
 [node name="ColorRect" type="ColorRect" parent="platform1" unique_id=2066084184]
-offset_left = 3.0
-offset_top = 574.0
-offset_right = 1150.0
-offset_bottom = 652.0
+offset_left = 1.0
+offset_top = 569.0
+offset_right = 1148.0
+offset_bottom = 647.0
 color = Color(1, 1, 0, 1)
 
 [node name="platform2" type="StaticBody2D" parent="." unique_id=1716227722]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="platform2" unique_id=170251130]
-position = Vector2(1155, 479.5)
+position = Vector2(1162, 511)
 shape = SubResource("RectangleShape2D_xrivr")
 
 [node name="ColorRect" type="ColorRect" parent="platform2" unique_id=2064382372]
-offset_left = 581.0
-offset_top = 445.0
-offset_right = 1128.0
-offset_bottom = 510.0
+offset_left = -2.0
+offset_top = 337.0
+offset_right = 526.0
+offset_bottom = 407.0
 color = Color(1, 0.36078432, 1, 1)
 
 [node name="platform3" type="StaticBody2D" parent="." unique_id=698666587]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="platform3" unique_id=1375851575]
-position = Vector2(-13.25, 354.25)
+position = Vector2(-60, 372)
 shape = SubResource("RectangleShape2D_xrivr")
 
 [node name="ColorRect" type="ColorRect" parent="platform3" unique_id=1768388191]
-offset_left = 22.0
-offset_top = 319.0
-offset_right = 564.0
-offset_bottom = 390.0
+offset_left = 577.0
+offset_top = 469.0
+offset_right = 1119.0
+offset_bottom = 540.0
 color = Color(0, 1, 1, 1)
 
 [node name="Player" parent="." unique_id=827991522 instance=ExtResource("2_f6tb2")]
-position = Vector2(-105, -65)
+position = Vector2(-76, -72)
 
 [node name="GarlicNode1" type="Node2D" parent="." unique_id=1452858961]
 script = ExtResource("3_o6yob")
 
 [node name="Garlic" type="TextureRect" parent="GarlicNode1" unique_id=220497376]
-offset_left = 1018.0
-offset_top = 368.06512
-offset_right = 1088.0
-offset_bottom = 437.06512
+offset_left = 992.0
+offset_top = 351.0
+offset_right = 1109.0
+offset_bottom = 449.0
 texture = ExtResource("3_f6tb2")
 expand_mode = 1
 
@@ -127,10 +127,10 @@ shape = SubResource("CircleShape2D_xrivr")
 script = ExtResource("3_o6yob")
 
 [node name="Garlic" type="TextureRect" parent="GarlicNode2" unique_id=626092472]
-offset_left = 53.0
-offset_top = 233.06512
-offset_right = 123.0
-offset_bottom = 302.06512
+offset_left = 15.0
+offset_top = 207.0
+offset_right = 149.0
+offset_bottom = 311.0
 texture = ExtResource("3_f6tb2")
 expand_mode = 1
 

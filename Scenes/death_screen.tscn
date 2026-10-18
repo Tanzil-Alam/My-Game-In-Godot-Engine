@@ -8,14 +8,14 @@ script = ExtResource("1_8hps1")
 [node name="ColorRect" type="ColorRect" parent="." unique_id=490495572]
 offset_right = 1150.0
 offset_bottom = 640.0
-color = Color(1, 0.15686275, 0, 1)
+color = Color(0.8659572, 0.38739118, 0, 1)
 
 [node name="RichTextLabel" type="RichTextLabel" parent="ColorRect" unique_id=1040475911]
 layout_mode = 0
-offset_left = 398.0
-offset_top = 16.0
-offset_right = 757.0
-offset_bottom = 118.0
+offset_left = 407.0
+offset_top = 78.0
+offset_right = 766.0
+offset_bottom = 180.0
 theme_override_font_sizes/normal_font_size = 60
 text = "YOU DIED!"
 
@@ -24,7 +24,7 @@ offset_left = 414.0
 offset_top = 263.0
 offset_right = 696.0
 offset_bottom = 342.0
-theme_override_font_sizes/font_size = 20
+theme_override_font_sizes/font_size = 40
 text = "Try Again"
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

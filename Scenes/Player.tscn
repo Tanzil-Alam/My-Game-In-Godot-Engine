@@ -4,22 +4,22 @@
 [ext_resource type="Texture2D" uid="uid://bw8c8q63pxs2x" path="res://Mario.png" id="2_gntrk"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_xrivr"]
-radius = 30.265491
+radius = 47.26521
 
 [node name="Player" type="CharacterBody2D" unique_id=827991522]
 script = ExtResource("1_kyqiw")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=409689828]
-position = Vector2(143.00006, 599)
-scale = Vector2(0.186, 0.15)
+position = Vector2(161.38751, 607.5625)
+scale = Vector2(0.43078586, 0.420357)
 texture = ExtResource("2_gntrk")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=943155747]
-position = Vector2(150, 603)
+position = Vector2(164, 608)
 shape = SubResource("CircleShape2D_xrivr")
 
 [node name="Area2D" type="Area2D" parent="." unique_id=754241499]
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D" unique_id=1669446650]
-position = Vector2(149, 609)
+position = Vector2(160, 605)
 shape = SubResource("CircleShape2D_xrivr")
