@@ -8,7 +8,7 @@ script = ExtResource("1_en6tx")
 [node name="ColorRect" type="ColorRect" parent="." unique_id=673247766]
 offset_right = 1151.0
 offset_bottom = 643.0
-color = Color(0.9882353, 0.8666667, 0.4509804, 1)
+color = Color(0.90588236, 0.8509804, 0.92941177, 0.98039216)
 
 [node name="RichTextLabel" type="RichTextLabel" parent="ColorRect" unique_id=106583404]
 layout_mode = 0
@@ -16,7 +16,7 @@ offset_left = 420.0
 offset_top = 29.0
 offset_right = 724.0
 offset_bottom = 128.0
-theme_override_colors/default_color = Color(0, 0.57254905, 1, 1)
+theme_override_colors/default_color = Color(0.5730223, 0.5975305, 0, 1)
 theme_override_font_sizes/normal_font_size = 60
 text = "YOU WIN!"
 
@@ -25,7 +25,7 @@ offset_left = 413.0
 offset_top = 266.0
 offset_right = 702.0
 offset_bottom = 348.0
-theme_override_font_sizes/font_size = 20
+theme_override_font_sizes/font_size = 40
 text = "Play Again"
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

@@ -10,5 +10,6 @@ offset_left = 546.0
 offset_top = 298.0
 offset_right = 661.0
 offset_bottom = 401.0
-theme_override_font_sizes/normal_font_size = 60
+theme_override_colors/default_color = Color(18.469584, 0, 0, 0.85490197)
+theme_override_font_sizes/normal_font_size = 70
 text = "0.0"
